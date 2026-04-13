@@ -1,0 +1,21 @@
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# SQLite databases and generated session artifacts
+*.db
+data/sessions/
+
+# Generated exports
+teacher_report_*.xlsx
